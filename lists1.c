@@ -16,7 +16,7 @@ size_t list_len(const list_t *h)
 		i++;
 	}
 	return (i);
-}
+} 
 
 /**
  * list_to_strings - returns an array of strings of the list->str
