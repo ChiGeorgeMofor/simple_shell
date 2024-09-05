@@ -65,7 +65,7 @@ typedef struct liststr
  *@environ: custom modified copy of environ from LL env
  *@history: the history node
  *@alias: the alias node
- *@env_changed: on if environ was changed
+ *@env_changed: on if environ was changed 
  *@status: the return status of the last exec'd command
  *@cmd_buf: address of pointer to cmd_buf, on if chaining
  *@cmd_buf_type: CMD_type ||, &&, ;
